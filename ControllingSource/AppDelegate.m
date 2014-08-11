@@ -25,7 +25,10 @@
     return YES;
 }
 							
-
+- (void)sayHelloWorld
+{
+	NSLog(@"Hello world!!!");
+}
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
