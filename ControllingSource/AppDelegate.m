@@ -35,6 +35,8 @@
 
 - (void)saveContext
 {
+    NSLog(@"Saving context");
+
     NSError *error = nil;
     NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
     if (managedObjectContext != nil) {
